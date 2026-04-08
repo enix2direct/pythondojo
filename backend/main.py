@@ -11,7 +11,7 @@ app = FastAPI(title="PythonDojo API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://pythondojo.hdavidenochs.com", "http://localhost:5173"],
+    allow_origins=["https://hdavidenochs.com", "http://localhost:5173"],
     allow_methods=["POST", "GET"],
     allow_headers=["*"],
 )
